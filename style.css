@@ -376,7 +376,7 @@ td:last-child {
 
 .under-footer {
   color: rgb(189, 189, 189);
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   height: 100%;
   text-align: center;
 }
@@ -485,6 +485,12 @@ svg {
   position: absolute;
   top: 15px;
   left: 18px;
+}
+
+.bottom-line {
+  border-color: rgb(189, 189, 189);
+  margin: 0;
+  padding: 5px;
 }
 
 
@@ -664,7 +670,7 @@ svg {
 
   /* footer */
   .footer {
-    height: 15vh;
+    padding-bottom: 10px;
   }
 
   .under-footer {
